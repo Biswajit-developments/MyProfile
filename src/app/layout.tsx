@@ -13,8 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Biswajit Narzary | Believer in Technologies, Learning & Hardwork",
-  description: "Personal portfolio of Biswajit Narzary - Full Stack Developer & Technology Enthusiast",
+  title: {
+    default: "Biswajit Narzary | Operations & Customer Success Expert",
+    template: "%s | Biswajit Narzary"
+  },
+  description: "Experienced Operations & Customer Success Specialist with a passion for technology and process optimization. Skilled in team leadership, client relations, and operational excellence.",
+  keywords: ["Operations Manager", "Customer Success", "Team Leadership", "Process Optimization", "Client Relations", "Business Operations"],
+  authors: [{ name: "Biswajit Narzary" }],
+  creator: "Biswajit Narzary",
+  publisher: "Biswajit Narzary",
+  metadataBase: new URL(process.env.SITE_URL || 'https://yourdomain.com'),
   icons: {
     icon: [
       {
@@ -47,19 +55,19 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'Biswajit Narzary | Believer in Technologies, Learning & Hardwork',
-    description: 'Personal portfolio of Biswajit Narzary - Full Stack Developer & Technology Enthusiast',
-    url: 'https://biswajitnarzary.com',
+    title: 'Biswajit Narzary | Operations & Customer Success Expert',
+    description: 'Experienced Operations & Customer Success Specialist with a passion for technology and process optimization.',
+    url: process.env.SITE_URL || 'https://yourdomain.com',
     siteName: 'Biswajit Narzary',
+    locale: 'en_US',
+    type: 'website',
     images: [
       {
         url: '/MyPhoto.png',
         width: 1200,
         height: 630,
       },
-    ],
-    locale: 'en_US',
-    type: 'website',
+    ]
   },
   twitter: {
     card: 'summary_large_image',
