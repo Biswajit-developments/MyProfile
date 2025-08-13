@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://yourdomain.com', // Change this to your domain
+  siteUrl: process.env.SITE_URL || 'https://biswajitnarzary.com',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
@@ -10,7 +10,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://yourdomain.com/sitemap.xml', // Change this to your domain
+      'https://biswajitnarzary.com/sitemap.xml',
     ],
   },
   exclude: ['/server-sitemap.xml'],

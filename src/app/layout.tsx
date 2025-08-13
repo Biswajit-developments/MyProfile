@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Biswajit Narzary" }],
   creator: "Biswajit Narzary",
   publisher: "Biswajit Narzary",
-  metadataBase: new URL(process.env.SITE_URL || 'https://yourdomain.com'),
+  metadataBase: new URL(process.env.SITE_URL || 'https://biswajitnarzary.com'),
   icons: {
     icon: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Biswajit Narzary | Operations & Customer Success Expert',
     description: 'Experienced Operations & Customer Success Specialist with a passion for technology and process optimization.',
-    url: process.env.SITE_URL || 'https://yourdomain.com',
+    url: process.env.SITE_URL || 'https://biswajitnarzary.com',
     siteName: 'Biswajit Narzary',
     locale: 'en_US',
     type: 'website',

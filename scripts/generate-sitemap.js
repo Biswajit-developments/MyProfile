@@ -4,7 +4,7 @@ const { SitemapStream, streamToPromise } = require('sitemap');
 const { Readable } = require('stream');
 
 // Your website URL
-const siteUrl = 'https://yourdomain.com';
+const siteUrl = 'https://biswajitnarzary.com';
 
 // Add all your routes here
 const routes = [
